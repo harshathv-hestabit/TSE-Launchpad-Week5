@@ -1,5 +1,5 @@
 {
-  "name": "node_react_mongdb_app",
+  "name": "node_express_server",
   "version": "1.0.0",
   "description": "Week 5 Tasks",
   "homepage": "https://github.com/harshathv-hestabit/TSE-Launchpad-Week5#readme",
@@ -18,6 +18,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0"
   }
 }
