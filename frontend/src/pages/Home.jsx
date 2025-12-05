@@ -7,7 +7,7 @@ export default function Home() {
 
     useEffect(() => {
         api
-            .get("/api/sample")
+            .get("/sample")
             .then((res) => setData(res.data.message))
             .catch((err) => {
                 console.error("API error:", err.message);
