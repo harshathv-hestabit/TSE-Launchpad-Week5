@@ -1,14 +1,7 @@
 export default function SampleBox({ text }) {
     return (
         <div
-            style={{
-                marginTop: "1rem",
-                padding: "1rem",
-                borderRadius: "8px",
-                border: "1px solid #ccc",
-                background: "#f8f8f8",
-                width: "fit-content"
-            }}
+            className="mt-1 p-1 border-radius-8 bg-white w-fit text-black rounded"
         >
             <strong>API Message: </strong> {text || "Loading..."}
         </div>
